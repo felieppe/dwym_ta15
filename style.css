@@ -6,14 +6,14 @@ body {
     color: hsl(0, 0%, 0%);
     font-weight: 800;
 }
-.small-para {
+.para.small-para {
     font-size: 14px;
     font-weight: 800;
 }
 .para {
     font-size: 22px;
 }
-.confirm {
+#confirm-button {
     background: green;
     color: white;
     font-weight: bold;
@@ -23,10 +23,10 @@ body {
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
-.child {
-    color: rgb(0, 0, 0);
-    font-weight: 800;
-    font-size: 14px;
+.text.child {
+    color: rgb(0, 0, 0) !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
 }
    
 div.text {
